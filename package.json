@@ -1,0 +1,15 @@
+{
+  "name": "keylogger",
+  "version": "1.0.0",
+  "description": "Keylogger for educational purposes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastien Bechet <sebastien.bechet@osinix.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
